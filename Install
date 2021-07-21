@@ -25,3 +25,4 @@ echo "DONE!..."
 
 # Remove directory
 rm -rfv $DIRECTORY
+reboot
