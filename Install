@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Create variable for working folder so we can delete this directory later.
 DIRECTORY=$(cd `dirname $0` && pwd)
