@@ -18,10 +18,6 @@ else
 	exit
 fi
 
-# Move the network-restart script to enable network restart on wake from suspend
-mv scrpits/network-restart /usr/lib/systemd/system-sleep/
-chmod +x /usr/lib/systemd/system-sleep/network-restart
-
 # Run the Desktop Environment setup
 scripts/fedoraServerToDesktop.sh
 
